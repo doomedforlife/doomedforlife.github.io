@@ -1,0 +1,18 @@
+.page{width:80vw;height:80vh;border:1px solid red}
+nav ul li{display:inline;}
+#page1{background:#84766d}
+#page2{background:#84766d}
+#page3{background:#84766d}
+
+/*CSS for responsive menu*/
+#hamIcon{display:none;}
+@media (max-width:800px){
+/*make a menu items vertical*/
+nav ul li{display:block;}
+/* unhide menu icon */
+#hamIcon{display:block;}
+/*hide the menu item list*/
+nav ul{display:none;}
+}
+/*to unhide menu items*/
+.menuShow{display:block;}
