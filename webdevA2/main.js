@@ -95,8 +95,8 @@ function GetRandom(min,max){
 return Math.round(Math.random() * (max - min)) + min;
 }
 function MoveCoin() {
-coin.style.left = GetRandom(0, 500) + "vw";
-coin.style.top = GetRandom(0, 500) + "vh";
+coin.style.left = GetRandom(0, 100) + "vw";
+coin.style.top = GetRandom(0, 100) + "vh";
 }
 var moveCoinItvId = setInterval(MoveCoin, 1000);
 
