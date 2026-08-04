@@ -6,10 +6,6 @@ nav ul li{display:inline;}
 #page2{background:#84766d}
 #page3{background:#84766d}
 
-/*Menu*/
-.menu{background:#84766d;position:fixed;top:0;left:0;width:100%;height:60px}
-
-
 /*RWD*/
 /*CSS for responsive menu*/
 #hamIcon{display:none;}
