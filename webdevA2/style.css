@@ -15,7 +15,9 @@ nav ul li{display:inline;}
 #page3{background:#84766d}
 ul{list-style-type:none;}
 
+/*images*/
 img{float:right;}
+#coin {position: relative;width:10vw}
 
 /*RWD*/
 /*CSS for responsive menu*/
