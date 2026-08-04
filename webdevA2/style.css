@@ -13,8 +13,9 @@ nav ul li{display:inline;}
 #page1{background:#84766d}
 #page2{background:#84766d}
 #page3{background:#84766d}
+ul{list-style-type:none;}
 
-img{float:right}
+img{float:right;}
 
 /*RWD*/
 /*CSS for responsive menu*/
@@ -29,3 +30,5 @@ nav ul{display:none;}
 }
 /*to unhide menu items*/
 .menuShow{display:block;}
+/*Adjust pg2*/
+#page2{height:auto}
