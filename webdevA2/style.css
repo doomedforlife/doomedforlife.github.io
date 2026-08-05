@@ -1,23 +1,51 @@
 body{text-align:center}
 
+/*animation for page load*/
+@keyframes fade{from{opacity:0;
+                    transform:translateY(20px);}
+                to{opacity:1;
+                    transform:translateY(0);}}
+
 .page{width:80vw;
-    height:100vh;
-    border:1px solid rgb(78, 41, 37);
+    box-sizing:border-box;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    margin:0 auto;}
+    margin:0 auto;
+    padding:2vw;
+    animation: fade 1s ease-in-out;}
+
+article{animation: fade 1s ease-in-out;}
 
 nav ul li{display:inline;}
 #page1{background:#84766d}
 #page2{background:#84766d}
-#page3{background:#84766d}
+#page3{background:#84766d;
+        text-align:center;}
 ul{list-style-type:none;}
 
 /*images*/
 img{float:right;}
 #coin {position: relative;width:10vw}
+
+/*minigame*/
+#gameWindow {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  border: 2px dashed #ffe699;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+#coin {
+  position: absolute;
+  width: 8vw;
+  cursor: pointer;
+  transition: width 0.3s ease, opacity 0.3s ease;
+}
+#coin.shrink{width:5vw;opacity: 0;}
 
 /*RWD*/
 /*CSS for responsive menu*/
@@ -30,8 +58,11 @@ nav ul li{display:block;}
 /*hide the menu item list*/
 nav ul{display:none;}
 
-/*adjust pg2 height*/
-#page2{height:150vh}
+/*spotify iframe*/
+iframe{width:75%}
+
+/*clear floats*/
+img{float:none;width:50vw;margin:0 auto;display:block;}
 }
 /*to unhide menu items*/
 .menuShow{display:block;}
