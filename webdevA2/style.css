@@ -32,9 +32,4 @@ nav ul{display:none;}
 }
 /*to unhide menu items*/
 .menuShow{display:block;}
-/*Adjust pg2*/
-#page2{height:100vh;
-        display:flex;
-        flex-direction:column;
-        justify-content:center;
-        align-items:center;}
+
