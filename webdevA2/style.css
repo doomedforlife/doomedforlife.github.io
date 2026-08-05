@@ -29,6 +29,9 @@ nav ul li{display:block;}
 #hamIcon{display:block;}
 /*hide the menu item list*/
 nav ul{display:none;}
+
+/*adjust pg2 height*/
+#page2{height:150vh}
 }
 /*to unhide menu items*/
 .menuShow{display:block;}
