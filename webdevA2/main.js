@@ -148,11 +148,11 @@ function startGame() {
 
 function adjustSpeed() {
 	if (score >= 50) {
-	currentSpeed = 500;
-	} else if (score >= 35) {
 	currentSpeed = 600;
+	} else if (score >= 35) {
+	currentSpeed = 700;
 	} else if (score >= 20) {
-	currentSpeed = 750;
+	currentSpeed = 800;
 	} else {
 	currentSpeed = 1000; // Starting speed
 	}
